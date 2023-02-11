@@ -1,0 +1,32 @@
+{
+  "name": "rest-fibonacci",
+  "version": "1.0.0",
+  "description": "A nodejs Restful API to generate fibonacci series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxsitivevxbess/NodeJs-Fibonacci.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Shivank Rastogi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxsitivevxbess/NodeJs-Fibonacci/issues"
+  },
+  "homepage": "https://github.com/pxsitivevxbess/NodeJs-Fibonacci#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "redis": "^4.6.4",
+    "redis-promisify": "^0.1.2"
+  }
+}
